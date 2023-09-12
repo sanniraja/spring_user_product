@@ -1,0 +1,32 @@
+step_to_create_User_Product_Spring_test
+
+Step 1- Creae a simple maven project
+
+Step 2-Add the Following dependencies in pom.xml file 
+
+i)my-sql-connector java (version 8.0.28)
+
+ii)Hibernate-Core-Relocation (Version 5.6.15final)
+
+iii)Spring context (version 5.3.18)
+
+note:- All above dependencies search inside maven repository in google.
+
+Step 3-Create a folder META-INF src/main/resources
+
+Step 4- Create file  persistence.xml in META-INF and After creating go on (https://github.com/sathishnyadav/supporting-files/blob/master/persistence.xml) these link and copy the persistence.xml file and paste in  persistence.xml.
+
+Step 5-Create a  base package which name like org.jsp.User_Product
+
+Step 6-After Creating sub package create 3 more package.
+
+i)org.jsp.User_Product.dto
+here create 2 Entity class (a). User (b).Product
+
+ii)org.jsp.User_Product.dao
+here create 2 class (a). UserDao (b).ProductDao
+
+iii)org.jsp.User_Product.controller
+here create 1 class (a). UserProductController
+ 
+Step 7- After Creating packages and classes  write code in every class which is present on my github.
